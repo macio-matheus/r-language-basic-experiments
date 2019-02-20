@@ -20,8 +20,8 @@ quantile(database) # Quartis
 # Dois arquivos devem ser baixados, o que avalia a qualidade dos vinhos tintose outro sobre a qualidade dos vinhos 
 # brancos (winequality-red.csve winequality-white.csvrespectivamente). Faça o que se pedepara ambas basesde dados.
 
-wine_red <- read.csv("winequality-red.csv", sep = ";")
-wine_white <- read.csv("winequality-white.csv", sep = ";")
+wine_red <- read.csv("../datasets/winequality-red.csv", sep = ";")
+wine_white <- read.csv("../datasets/winequality-white.csv", sep = ";")
 
 head(wine_red, n = 10)
 
