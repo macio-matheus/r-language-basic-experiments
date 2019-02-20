@@ -1,9 +1,8 @@
 version: '3'
 
 services:
-
-  notebook_data_science_jupy:
-    container_name: arxiv_jupyter_experiments
+  notebook_data_science_r_lang:
+    container_name: r_jupyter_experiments
     image: maciomatheus/jupyter_notebook_data_science
     environment:
       JUPYTER_ENABLE_LAB: 1
